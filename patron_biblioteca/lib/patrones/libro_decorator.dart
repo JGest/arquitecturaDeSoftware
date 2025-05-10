@@ -12,6 +12,6 @@ class LibroRecomendado extends LibroDecorator {
   @override
   void mostrarDetalles() {
     libro.mostrarDetalles();
-    print("⭐ Este libro es altamente recomendado.");
+    print("Este libro es altamente recomendado.");
   }
 }

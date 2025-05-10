@@ -5,6 +5,6 @@ class LibroFisico extends Libro {
 
   @override
   void mostrarDetalles() {
-    print("📖 Libro Físico: $titulo por $autor");
+    print("Libro Físico: $titulo por $autor");
   }
 }

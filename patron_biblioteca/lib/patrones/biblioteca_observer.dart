@@ -11,7 +11,7 @@ class Biblioteca {
 
   void notificarUsuarios(String libro) {
     for (var usuario in usuarios) {
-      usuario.actualizar("📢 El libro '$libro' está disponible.");
+      usuario.actualizar("El libro '$libro' está disponible.");
     }
   }
 }

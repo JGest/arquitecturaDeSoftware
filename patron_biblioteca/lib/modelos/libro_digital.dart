@@ -5,6 +5,6 @@ class LibroDigital extends Libro {
 
   @override
   void mostrarDetalles() {
-    print("📱 Libro Digital: $titulo por $autor");
+    print("Libro Digital: $titulo por $autor");
   }
 }
